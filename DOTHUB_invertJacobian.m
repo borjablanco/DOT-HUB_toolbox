@@ -336,7 +336,7 @@ end
 clear JJT;   % Clear for efficiency
 
 % #########################################################################
-% Create invjac filename. We want this to be identical to the jacFileName  
+% Create invjac filename. We want this to be identical to the jacFileName 
 [pathstr, name, ~] = fileparts(jac.fileName);
 invjacFileName = fullfile(pathstr,[name '.invjac']);
 ds = datestr(now,'yyyymmDDHHMMSS');
